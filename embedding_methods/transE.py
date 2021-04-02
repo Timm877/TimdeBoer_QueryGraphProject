@@ -1,15 +1,16 @@
 # TRANS-E
+from copy import deepcopy
+import numpy as np
+import random
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
+
 def transE(data, entityDic, relationDic):
-    from copy import deepcopy
-    import numpy as np
-    import random
-
-    import torch
-    import torch.nn as nn
-    import torch.nn.functional as F
-    import torch.optim as optim
-
-    '''initialize the transE method as pytorch nn module'''
+    '''initialize the transE method as pytorch nn module.
+    *Explanation of transE*'''
     class transE(nn.Module):
         def __init__(self, entity_size, relation_size, embedding_size):
             super(transE, self).__init__()
@@ -25,9 +26,11 @@ def transE(data, entityDic, relationDic):
             neg_t_e = self.W_en(neg_t)
             neg_r_e = self.W_re(neg_r)
                 
-            posError = torch.sum((pos_h_e + pos_r_e - pos_t_e) ** 2)
-            negError = torch.sum((neg_h_e + neg_r_e - neg_t_e) ** 2)
-            return posError
+            # here we have implemented negative sampling    
+            total_error = torch.max(torch.tensor([0]), 0.1 + torch.sum(torch.abs(pos_h_e + pos_r_e - pos_t_e),1) \
+                - torch.sum(torch.abs(neg_h_e + neg_r_e - neg_t_e),1) ).mean() #0.1 == arbitrarely chosen margin
+            return total_error
+
 
     # Split the tripleList into batches 
     def getBatchList(tripleList, num_batches):
@@ -56,8 +59,7 @@ def transE(data, entityDic, relationDic):
 
     entity_size=len(entityDic)
     relation_size=len(relationDic)
-    embedding_size=5
-    #triples=list(zip(range(9),[0]*10,range(1,10)))
+    embedding_size= 2
     triples= [(entityDic[i],relationDic[j],entityDic[k]) for i,j,k in data]
     nBatch=10
     trainBatchList=getBatchList(triples, nBatch)
@@ -85,8 +87,7 @@ def transE(data, entityDic, relationDic):
             loss = transe(pos_h_batch, pos_r_batch, pos_t_batch, neg_h_batch,neg_r_batch, neg_t_batch)
         
             total_loss += loss.item()
-            #transe.W_in.weight.data[0][0]=0# fix the position of "9"
-            #transe.W_in.weight.data[1][0]=0#
+
             loss.backward()
             optimizer.step()
         if epo % 100 == 0:    
