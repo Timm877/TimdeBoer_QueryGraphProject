@@ -24,14 +24,18 @@ def ComplEx(data, entityDic, relationDic):
             self.entity_embedding_i = nn.Embedding(num_entities, num_dim)  # entity embedding imaginary part
             self.relation_embedding_r = nn.Embedding(num_relations, num_dim)  # relation embedding real part
             self.relation_embedding_i = nn.Embedding(num_relations, num_dim) # relation embedding imaginary part
-            self.sigmoid = nn.Sigmoid()
+            nn.init.xavier_uniform_(self.entity_embedding_r.weight.data)
+            nn.init.xavier_uniform_(self.entity_embedding_i.weight.data)
+            nn.init.xavier_uniform_(self.relation_embedding_r.weight.data)
+            nn.init.xavier_uniform_(self.relation_embedding_i.weight.data)
             self.softplus = nn.Softplus()
 
-        def forward(self, x, y, r):
-            error = self.softplus(-(torch.sum(self.relation_embedding_r(r) * self.entity_embedding_r(x) * self.entity_embedding_r(y), 1) \
-					   + torch.sum(self.relation_embedding_r(r) * self.entity_embedding_i(x) * self.entity_embedding_i(y), 1) \
-					   + torch.sum(self.relation_embedding_i(r) * self.entity_embedding_r(x) * self.entity_embedding_i(y), 1) \
-					   - torch.sum(self.relation_embedding_i(r) * self.entity_embedding_i(x) * self.entity_embedding_r(y), 1)) ).mean()
+        def forward(self, x, y, r): #does not have negative sampling
+            error = self.softplus(-torch.sum(self.relation_embedding_r(r) * self.entity_embedding_r(x) * self.entity_embedding_r(y) \
+					   + self.relation_embedding_r(r) * self.entity_embedding_i(x) * self.entity_embedding_i(y) \
+					   + self.relation_embedding_i(r) * self.entity_embedding_r(x) * self.entity_embedding_i(y) \
+					   - self.relation_embedding_i(r) * self.entity_embedding_i(x) * self.entity_embedding_r(y),1)).mean()
+                       #take mean over the full mini batch
             return error
 
     def getBatchList(tripleList, num_batches):

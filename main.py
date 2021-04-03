@@ -1,4 +1,4 @@
-"""The program is ran from this file. The requirements are checked first.
+"""The program is ran from this file.
 As default, a test program is ran using transE with a small world cup dataset.
 To change the embedding method or dataset, run ...."""
 
@@ -14,6 +14,6 @@ if __name__ == "__main__":
    #evt. add the query logs
 
    # each embedding model
-   Loss, posEnData, posReData = transE(data, entityDic, relationDic)
-   #Loss, posEnData, posReData = ComplEx(data, entityDic, relationDic)
+   #Loss, posEnData, posReData = transE(data, entityDic, relationDic)
+   Loss, posEnData, posReData = ComplEx(data, entityDic, relationDic)
 
