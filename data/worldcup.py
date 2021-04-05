@@ -4,7 +4,7 @@ def worldcup_data():
     from collections import defaultdict
     
     g = rdflib.Graph()
-    g.parse('data/worldcup_data',format="n3")
+    g.parse('data\worldcup_data',format="n3")
 
     def cleanRDF(s): 
         if isinstance(s, rdflib.URIRef):
