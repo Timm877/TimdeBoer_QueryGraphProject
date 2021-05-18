@@ -14,35 +14,35 @@ by adding information about importance of triples, as measured on downstream ML 
 
 ## Main Requirements
 
-'''
+```
 Java 11 JDK with additional libraries
 Apache Maven
 Python 3.9.1
 PyTorch
 Pytorch BigGraph
-'''
+```
 
 All requirements are visible in requirements.txt  
 It is recommended to create a virtual enviroment.
 
 ## Theoretical background information
 
-We hypothesize that results of queries requested by users via https://dbpedia.org/sparql contain information about importance,
+We hypothesize that results of queries requested by users via [https://dbpedia.org/sparql] contain information about importance,
 in the sense that important information will be requested via SPARQL more often than less important information.
 From the results from the SPARQL queries, a list of BasicGraphPatterns (BGPs) is extracted.
 In order to do receive the BGPs we first simplify the queries to SELECT queries without filters.
 Each BasicGraphPattern comes in the form of: 
-'''
+```
 <subject> <relation> ?x 
-'''
+```
 We extract all possible triples in the Graph which satisfy the results the BasicGraphPattern.
 
 These triples will then be uniquely added to the graph by creating a detour of three triples, as follows:
-'''
+```
 <subject> <connectionRelation> <uniqueSubjectID>
 <uniqueSubjectID> <relation> <uniqueObjectID> 
 <uniqueObjectId> <connectionRelation> <object>
-'''
+```
 By creating an unique detour for every triple, the graph is expanded for every triple.
 The count of detour for a triple in the original graph gives an indication of importance.
 The graph embedding methods will therefore assign greater importance to these triples, since wrong embeddings for these triples will bem ore costly than triples with less detours.
