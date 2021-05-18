@@ -1,0 +1,408 @@
+The files:
+bl-example
+uri_same_as_iri_en 
+yago_type_links
+yago_taxonomy
+umbel_links_fixed
+homepages_en
+geonames_liks
+geonames_links_en
+ocd_links
+linked_web_apis
+could not be imported to GraphDB
+
+
+
+
+
+Parsingamsterdammuseum.nt.bz2
+Found 0 literals in amsterdammuseum.nt.bz2
+Parsingarticle_categories_en.ttl.bz2
+Found 2 literals in article_categories_en.ttl.bz2
+Parsingbbc-things_links.nt.bz2
+Found 0 literals in bbc-things_links.nt.bz2
+Parsingbbcwildlife_links.nt.bz2
+Found 0 literals in bbcwildlife_links.nt.bz2
+Parsingbl-example.nt.bz2
+Found 0 literals in bl-example.nt.bz2
+Parsingbookmashup_links.nt.bz2
+Found 0 literals in bookmashup_links.nt.bz2
+Parsingbricklink.nt.bz2
+Found 0 literals in bricklink.nt.bz2
+Parsingcategory_labels_en.ttl.bz2
+Found 1475017 literals in category_labels_en.ttl.bz2
+Parsingcordis.nt.bz2
+Found 0 literals in cordis.nt.bz2
+ParsingdataEco_links.nt.bz2
+Found 0 literals in dataEco_links.nt.bz2
+Parsingdblp.nt.bz2
+Found 0 literals in dblp.nt.bz2
+Parsingdbtune_links.nt.bz2
+Found 0 literals in dbtune_links.nt.bz2
+Parsingdisambiguations_en.ttl.bz2
+Found 2 literals in disambiguations_en.ttl.bz2
+Parsingdiseasome_links.nt.bz2
+Found 0 literals in diseasome_links.nt.bz2
+Parsingdnb-links.nt.bz2
+Found 0 literals in dnb-links.nt.bz2
+Parsingdrugbank_links.nt.bz2
+Found 0 literals in drugbank_links.nt.bz2
+Parsingeunis_links.nt.bz2
+Found 0 literals in eunis_links.nt.bz2
+Parsingeurostat_linkedstatistics_links.nt.bz2
+Found 0 literals in eurostat_linkedstatistics_links.nt.bz2
+Parsingeurostat_wbsg.nt.bz2
+Found 0 literals in eurostat_wbsg.nt.bz2
+Parsingexternal_links_en.ttl.bz2
+Found 2 literals in external_links_en.ttl.bz2
+Parsingfactbook.nt.bz2
+Found 0 literals in factbook.nt.bz2
+Parsingfreebase_links_en.ttl.bz2
+Found 2 literals in freebase_links_en.ttl.bz2
+Parsinggadm_links.nt.bz2
+Found 0 literals in gadm_links.nt.bz2
+Parsinggeonames_links.ttl.bz2
+Found 2 literals in geonames_links.ttl.bz2
+Parsinggeonames_links_en.ttl.bz2
+Found 2 literals in geonames_links_en.ttl.bz2
+Parsinggeospecies.nt.bz2
+Found 0 literals in geospecies.nt.bz2
+Parsinggeo_coordinates_en.ttl.bz2
+Found 580894 literals in geo_coordinates_en.ttl.bz2
+Parsinggeo_coordinates_mappingbased_en.ttl.bz2
+Found 607509 literals in geo_coordinates_mappingbased_en.ttl.bz2
+Parsinggho.nt.bz2
+Found 0 literals in gho.nt.bz2
+Parsinghomepages_en.ttl.bz2
+Found 2 literals in homepages_en.ttl.bz2
+Parsingimages_en.ttl.bz2
+Found 2 literals in images_en.ttl.bz2
+Parsinginfobox_properties_en.ttl.bz2
+Found 1036 literals in infobox_properties_en.ttl.bz2
+Parsinginfobox_property_definitions_en.ttl.bz2
+Found 59246 literals in infobox_property_definitions_en.ttl.bz2
+Parsinginstance_types_en.ttl.bz2
+Found 2 literals in instance_types_en.ttl.bz2
+Parsinginstance_types_lhd_dbo_en.ttl.bz2
+Found 2 literals in instance_types_lhd_dbo_en.ttl.bz2
+Parsinginstance_types_lhd_ext_en.ttl.bz2
+Found 2 literals in instance_types_lhd_ext_en.ttl.bz2
+Parsinginstance_types_transitive_en.ttl.bz2
+Found 2 literals in instance_types_transitive_en.ttl.bz2
+Parsinginterlanguage_links_chapters_en.ttl.bz2
+Found 2 literals in interlanguage_links_chapters_en.ttl.bz2
+Parsingispra-core_links.nt.bz2
+Found 0 literals in ispra-core_links.nt.bz2
+Parsingitalian_public_schools.nt.bz2
+Found 0 literals in italian_public_schools.nt.bz2
+Parsinglabels_en.ttl.bz2
+Found 12845254 literals in labels_en.ttl.bz2
+Parsinglabels_en_uris_ar.ttl.bz2
+Found 300448 literals in labels_en_uris_ar.ttl.bz2
+Parsinglabels_en_uris_de.ttl.bz2
+Found 1018323 literals in labels_en_uris_de.ttl.bz2
+Parsinglabels_en_uris_es.ttl.bz2
+Found 812333 literals in labels_en_uris_es.ttl.bz2
+Parsinglabels_en_uris_fr.ttl.bz2
+Found 1164579 literals in labels_en_uris_fr.ttl.bz2
+Parsinglabels_en_uris_it.ttl.bz2
+Found 883924 literals in labels_en_uris_it.ttl.bz2
+Parsinglabels_en_uris_ja.ttl.bz2
+Found 459618 literals in labels_en_uris_ja.ttl.bz2
+Parsinglabels_en_uris_nl.ttl.bz2
+Found 781383 literals in labels_en_uris_nl.ttl.bz2
+Parsinglabels_en_uris_pl.ttl.bz2
+Found 751847 literals in labels_en_uris_pl.ttl.bz2
+Parsinglabels_en_uris_pt.ttl.bz2
+Found 660419 literals in labels_en_uris_pt.ttl.bz2
+Parsinglabels_en_uris_ru.ttl.bz2
+Found 708596 literals in labels_en_uris_ru.ttl.bz2
+Parsinglabels_en_uris_zh.ttl.bz2
+Found 497706 literals in labels_en_uris_zh.ttl.bz2
+Parsinglinkedgeodata_links.nt.bz2
+Found 0 literals in linkedgeodata_links.nt.bz2
+Parsinglinkedmdb_links.nt.bz2
+Found 0 literals in linkedmdb_links.nt.bz2
+Parsinglinked_web_apis.nt.bz2
+Found 0 literals in linked_web_apis.nt.bz2
+Parsinglobid.org_organization.nt.bz2
+Found 0 literals in lobid.org_organization.nt.bz2
+Parsinglogainmie_links.nt.bz2
+Found 0 literals in logainmie_links.nt.bz2
+Parsinglong_abstracts_en.ttl.bz2
+Found 4933838 literals in long_abstracts_en.ttl.bz2
+Parsinglong_abstracts_en_uris_ar.ttl.bz2
+Found 297276 literals in long_abstracts_en_uris_ar.ttl.bz2
+Parsinglong_abstracts_en_uris_de.ttl.bz2
+Found 920890 literals in long_abstracts_en_uris_de.ttl.bz2
+Parsinglong_abstracts_en_uris_es.ttl.bz2
+Found 782249 literals in long_abstracts_en_uris_es.ttl.bz2
+Parsinglong_abstracts_en_uris_fr.ttl.bz2
+Found 1099127 literals in long_abstracts_en_uris_fr.ttl.bz2
+Parsinglong_abstracts_en_uris_it.ttl.bz2
+Found 684788 literals in long_abstracts_en_uris_it.ttl.bz2
+Parsinglong_abstracts_en_uris_ja.ttl.bz2
+Found 440199 literals in long_abstracts_en_uris_ja.ttl.bz2
+Parsinglong_abstracts_en_uris_nl.ttl.bz2
+Found 742129 literals in long_abstracts_en_uris_nl.ttl.bz2
+Parsinglong_abstracts_en_uris_pl.ttl.bz2
+Found 712169 literals in long_abstracts_en_uris_pl.ttl.bz2
+Parsinglong_abstracts_en_uris_pt.ttl.bz2
+Found 631489 literals in long_abstracts_en_uris_pt.ttl.bz2
+Parsinglong_abstracts_en_uris_ru.ttl.bz2
+Found 664292 literals in long_abstracts_en_uris_ru.ttl.bz2
+Parsinglong_abstracts_en_uris_zh.ttl.bz2
+Found 476737 literals in long_abstracts_en_uris_zh.ttl.bz2
+Parsingmanifestation_links.nt.bz2
+Found 0 literals in manifestation_links.nt.bz2
+Parsingmappingbased_literals_en.ttl.bz2
+Found 6871558 literals in mappingbased_literals_en.ttl.bz2
+Parsingmappingbased_objects_en.ttl.bz2
+Found 2 literals in mappingbased_objects_en.ttl.bz2
+Parsingnuts_links.nt.bz2
+Found 0 literals in nuts_links.nt.bz2
+Parsingnytimes.nt.bz2
+Found 0 literals in nytimes.nt.bz2
+Parsingocd_links.nt.bz2
+Found 0 literals in ocd_links.nt.bz2
+Parsingopenei_links.nt.bz2
+Found 0 literals in openei_links.nt.bz2
+Parsingorganisation_links.nt.bz2
+Found 0 literals in organisation_links.nt.bz2
+Parsingpage_ids_en.ttl.bz2
+Found 2 literals in page_ids_en.ttl.bz2
+Parsingpersondata_en.ttl.bz2
+Found 6170596 literals in persondata_en.ttl.bz2
+Parsingrevision_ids_en.ttl.bz2
+Found 2 literals in revision_ids_en.ttl.bz2
+Parsingrevision_uris_en.ttl.bz2
+Found 2 literals in revision_uris_en.ttl.bz2
+Parsingrevyu.nt.bz2
+Found 0 literals in revyu.nt.bz2
+Parsingshort_abstracts_en.ttl.bz2
+Found 4934326 literals in short_abstracts_en.ttl.bz2
+Parsingshort_abstracts_en_uris_ar.ttl.bz2
+Found 297338 literals in short_abstracts_en_uris_ar.ttl.bz2
+Parsingshort_abstracts_en_uris_de.ttl.bz2
+Found 920975 literals in short_abstracts_en_uris_de.ttl.bz2
+Parsingshort_abstracts_en_uris_es.ttl.bz2
+Found 782416 literals in short_abstracts_en_uris_es.ttl.bz2
+Parsingshort_abstracts_en_uris_fr.ttl.bz2
+Found 1099211 literals in short_abstracts_en_uris_fr.ttl.bz2
+Parsingshort_abstracts_en_uris_it.ttl.bz2
+Found 684840 literals in short_abstracts_en_uris_it.ttl.bz2
+Parsingshort_abstracts_en_uris_ja.ttl.bz2
+Found 440208 literals in short_abstracts_en_uris_ja.ttl.bz2
+Parsingshort_abstracts_en_uris_nl.ttl.bz2
+Found 742173 literals in short_abstracts_en_uris_nl.ttl.bz2
+Parsingshort_abstracts_en_uris_pl.ttl.bz2
+Found 712234 literals in short_abstracts_en_uris_pl.ttl.bz2
+Parsingshort_abstracts_en_uris_pt.ttl.bz2
+Found 631584 literals in short_abstracts_en_uris_pt.ttl.bz2
+Parsingshort_abstracts_en_uris_ru.ttl.bz2
+Found 664438 literals in short_abstracts_en_uris_ru.ttl.bz2
+Parsingshort_abstracts_en_uris_zh.ttl.bz2
+Found 476748 literals in short_abstracts_en_uris_zh.ttl.bz2
+Parsingsider.nt.bz2
+Found 0 literals in sider.nt.bz2
+Parsingskos_categories_en.ttl.bz2
+Found 1475017 literals in skos_categories_en.ttl.bz2
+Parsingspecific_mappingbased_properties_en.ttl.bz2
+Found 2 literals in specific_mappingbased_properties_en.ttl.bz2
+Parsingspringer_nature_scigraph_subjects.nt.bz2
+Found 0 literals in springer_nature_scigraph_subjects.nt.bz2
+Parsingtcm.nt.bz2
+Found 0 literals in tcm.nt.bz2
+Parsingtransitive_redirects_en.ttl.bz2
+Found 2 literals in transitive_redirects_en.ttl.bz2
+Parsingtransparency_links.nt.bz2
+Found 0 literals in transparency_links.nt.bz2
+Parsinguk-university-links.nt.bz2
+Found 0 literals in uk-university-links.nt.bz2
+Parsingumbel_links_fixed.nt.bz2
+Found 0 literals in umbel_links_fixed.nt.bz2
+Parsinguri_same_as_iri_en.ttl.bz2
+Found 2 literals in uri_same_as_iri_en.ttl.bz2
+Parsinguscensus.nt.bz2
+Found 0 literals in uscensus.nt.bz2
+Parsingviaf2dbpedia.nt.bz2
+Found 0 literals in viaf2dbpedia.nt.bz2
+Parsingwikipedia_links_en.ttl.bz2
+Found 12845254 literals in wikipedia_links_en.ttl.bz2
+Parsingwl-example.nt.bz2
+Found 0 literals in wl-example.nt.bz2
+Parsingwordnet_links.nt.bz2
+Found 0 literals in wordnet_links.nt.bz2
+Parsingworldbank_links.nt.bz2
+Found 0 literals in worldbank_links.nt.bz2
+Parsingyago_links.ttl.bz2
+Found 2 literals in yago_links.ttl.bz2
+Parsingyago_taxonomy.ttl.bz2
+Found 2 literals in yago_taxonomy.ttl.bz2
+Parsingyago_types.ttl.bz2
+Found 2 literals in yago_types.ttl.bz2
+Parsingyago_type_links.ttl.bz2
+Found 2 literals in yago_type_links.ttl.bz2
+
+NEW VERSION
+Parsingamsterdammuseum.nt.bz2
+Found 0 literals in amsterdammuseum.nt.bz2
+Parsingarticle_categories_en.ttl.bz2
+Found 0 literals in article_categories_en.ttl.bz2
+Parsingbbc-things_links.nt.bz2
+Found 0 literals in bbc-things_links.nt.bz2
+Parsingbbcwildlife_links.nt.bz2
+Found 0 literals in bbcwildlife_links.nt.bz2
+Parsingbl-example.nt.bz2
+Found 0 literals in bl-example.nt.bz2
+Parsingbookmashup_links.nt.bz2
+Found 0 literals in bookmashup_links.nt.bz2
+Parsingbricklink.nt.bz2
+Found 0 literals in bricklink.nt.bz2
+Parsingcategory_labels_en.ttl.bz2
+Found 1475015 literals in category_labels_en.ttl.bz2
+Parsingcordis.nt.bz2
+Found 0 literals in cordis.nt.bz2
+ParsingdataEco_links.nt.bz2
+Found 0 literals in dataEco_links.nt.bz2
+Parsingdblp.nt.bz2
+Found 0 literals in dblp.nt.bz2
+Parsingdbtune_links.nt.bz2
+Found 0 literals in dbtune_links.nt.bz2
+Parsingdisambiguations_en.ttl.bz2
+Found 0 literals in disambiguations_en.ttl.bz2
+Parsingdiseasome_links.nt.bz2
+Found 0 literals in diseasome_links.nt.bz2
+Parsingdnb-links.nt.bz2
+Found 0 literals in dnb-links.nt.bz2
+Parsingdrugbank_links.nt.bz2
+Found 0 literals in drugbank_links.nt.bz2
+Parsingeunis_links.nt.bz2
+Found 0 literals in eunis_links.nt.bz2
+Parsingeurostat_linkedstatistics_links.nt.bz2
+Found 0 literals in eurostat_linkedstatistics_links.nt.bz2
+Parsingeurostat_wbsg.nt.bz2
+Found 0 literals in eurostat_wbsg.nt.bz2
+Parsingexternal_links_en.ttl.bz2
+Found 0 literals in external_links_en.ttl.bz2
+Parsingfactbook.nt.bz2
+Found 0 literals in factbook.nt.bz2
+Parsingfreebase_links_en.ttl.bz2
+Found 12944 literals in freebase_links_en.ttl.bz2
+Parsinggadm_links.nt.bz2
+Found 0 literals in gadm_links.nt.bz2
+Parsinggeonames_links.ttl.bz2
+Found 0 literals in geonames_links.ttl.bz2
+Parsinggeonames_links_en.ttl.bz2
+Found 0 literals in geonames_links_en.ttl.bz2
+Parsinggeospecies.nt.bz2
+Found 0 literals in geospecies.nt.bz2
+Parsinggeo_coordinates_en.ttl.bz2
+Found 1742676 literals in geo_coordinates_en.ttl.bz2
+Parsinggeo_coordinates_mappingbased_en.ttl.bz2
+Found 1822453 literals in geo_coordinates_mappingbased_en.ttl.bz2
+Parsinggho.nt.bz2
+Found 0 literals in gho.nt.bz2
+Parsinghomepages_en.ttl.bz2
+Found 0 literals in homepages_en.ttl.bz2
+Parsingimages_en.ttl.bz2
+Found 0 literals in images_en.ttl.bz2
+Parsinginfobox_properties_en.ttl.bz2
+Found 44523312 literals in infobox_properties_en.ttl.bz2
+Parsinginfobox_property_definitions_en.ttl.bz2
+Found 59300 literals in infobox_property_definitions_en.ttl.bz2
+Parsinginstance_types_en.ttl.bz2
+Found 0 literals in instance_types_en.ttl.bz2
+Parsinginstance_types_lhd_dbo_en.ttl.bz2
+Found 0 literals in instance_types_lhd_dbo_en.ttl.bz2
+Parsinginstance_types_lhd_ext_en.ttl.bz2
+Found 0 literals in instance_types_lhd_ext_en.ttl.bz2
+Parsinginstance_types_transitive_en.ttl.bz2
+Found 0 literals in instance_types_transitive_en.ttl.bz2
+Parsinginterlanguage_links_chapters_en.ttl.bz2
+Found 0 literals in interlanguage_links_chapters_en.ttl.bz2
+Parsingispra-core_links.nt.bz2
+Found 0 literals in ispra-core_links.nt.bz2
+Parsingitalian_public_schools.nt.bz2
+Found 0 literals in italian_public_schools.nt.bz2
+Parsinglabels_en.ttl.bz2
+Found 12845252 literals in labels_en.ttl.bz2
+Parsinglinkedgeodata_links.nt.bz2
+Found 0 literals in linkedgeodata_links.nt.bz2
+Parsinglinkedmdb_links.nt.bz2
+Found 0 literals in linkedmdb_links.nt.bz2
+Parsinglinked_web_apis.nt.bz2
+Found 0 literals in linked_web_apis.nt.bz2
+Parsinglobid.org_organization.nt.bz2
+Found 0 literals in lobid.org_organization.nt.bz2
+Parsinglogainmie_links.nt.bz2
+Found 0 literals in logainmie_links.nt.bz2
+Parsinglong_abstracts_en.ttl.bz2
+Found 4935279 literals in long_abstracts_en.ttl.bz2
+Parsingmanifestation_links.nt.bz2
+Found 0 literals in manifestation_links.nt.bz2
+Parsingmappingbased_literals_en.ttl.bz2
+Found 14388537 literals in mappingbased_literals_en.ttl.bz2
+Parsingmappingbased_objects_en.ttl.bz2
+Found 0 literals in mappingbased_objects_en.ttl.bz2
+Parsingnuts_links.nt.bz2
+Found 0 literals in nuts_links.nt.bz2
+Parsingnytimes.nt.bz2
+Found 0 literals in nytimes.nt.bz2
+Parsingocd_links.nt.bz2
+Found 0 literals in ocd_links.nt.bz2
+Parsingopenei_links.nt.bz2
+Found 0 literals in openei_links.nt.bz2
+Parsingorganisation_links.nt.bz2
+Found 0 literals in organisation_links.nt.bz2
+Parsingpage_ids_en.ttl.bz2
+Found 15797812 literals in page_ids_en.ttl.bz2
+Parsingpersondata_en.ttl.bz2
+Found 7935558 literals in persondata_en.ttl.bz2
+Parsingrevision_ids_en.ttl.bz2
+Found 15797812 literals in revision_ids_en.ttl.bz2
+Parsingrevision_uris_en.ttl.bz2
+Found 0 literals in revision_uris_en.ttl.bz2
+Parsingrevyu.nt.bz2
+Found 0 literals in revyu.nt.bz2
+Parsingsider.nt.bz2
+Found 0 literals in sider.nt.bz2
+Parsingskos_categories_en.ttl.bz2
+Found 1475015 literals in skos_categories_en.ttl.bz2
+Parsingspecific_mappingbased_properties_en.ttl.bz2
+Found 915714 literals in specific_mappingbased_properties_en.ttl.bz2
+Parsingspringer_nature_scigraph_subjects.nt.bz2
+Found 0 literals in springer_nature_scigraph_subjects.nt.bz2
+Parsingtcm.nt.bz2
+Found 0 literals in tcm.nt.bz2
+Parsingtransitive_redirects_en.ttl.bz2
+Found 0 literals in transitive_redirects_en.ttl.bz2
+Parsingtransparency_links.nt.bz2
+Found 0 literals in transparency_links.nt.bz2
+Parsinguk-university-links.nt.bz2
+Found 0 literals in uk-university-links.nt.bz2
+Parsingumbel_links_fixed.nt.bz2
+Found 0 literals in umbel_links_fixed.nt.bz2
+Parsinguri_same_as_iri_en.ttl.bz2
+Found 0 literals in uri_same_as_iri_en.ttl.bz2
+Parsinguscensus.nt.bz2
+Found 0 literals in uscensus.nt.bz2
+Parsingviaf2dbpedia.nt.bz2
+Found 0 literals in viaf2dbpedia.nt.bz2
+Parsingwikipedia_links_en.ttl.bz2
+Found 12845252 literals in wikipedia_links_en.ttl.bz2
+Parsingwl-example.nt.bz2
+Found 0 literals in wl-example.nt.bz2
+Parsingwordnet_links.nt.bz2
+Found 0 literals in wordnet_links.nt.bz2
+Parsingworldbank_links.nt.bz2
+Found 0 literals in worldbank_links.nt.bz2
+Parsingyago_links.ttl.bz2
+Found 0 literals in yago_links.ttl.bz2
+Parsingyago_taxonomy.ttl.bz2
+Found 61 literals in yago_taxonomy.ttl.bz2
+Parsingyago_types.ttl.bz2
+Found 673 literals in yago_types.ttl.bz2
+Parsingyago_type_links.ttl.bz2
+Found 63 literals in yago_type_links.ttl.bz2
+
