@@ -6,13 +6,13 @@ public class MakeSmallerDBPediaFiles {
 	{  
 	 try{  
 	  // Reading file and getting no. of files to be generated  
-	File path = new File("Bliepboep/");
+	File path = new File("biep/");
 	File [] files = path.listFiles();
 	for (int h = 0; h < files.length; h++){
 		   if (files[h].isFile()){ 
-			   String inputfile = "Bliepboep/" + files[h].getName();
+			   String inputfile = "biep/" + files[h].getName();
 		      System.out.println(inputfile);
-	  double nol = 1200000.0; //  No. of lines to be split and saved in each output file.  
+	  double nol = 800000.0; //  No. of lines to be split and saved in each output file.  
 	  File file = new File(inputfile);  
 	  Scanner scanner = new Scanner(file);  
 	  int count = 0;  
@@ -46,7 +46,7 @@ public class MakeSmallerDBPediaFiles {
 
 	  for (int j=1;j<=nof;j++)  
 	  {  
-	   FileWriter fstream1 = new FileWriter("Splitted_DBPedia/"+  files[h].getName() + "_" +  j+".nt");     // Destination File Location  
+	   FileWriter fstream1 = new FileWriter("selectQueriesBACKUP/"+  files[h].getName() + "-" +  j);     // Destination File Location  
 	   BufferedWriter out = new BufferedWriter(fstream1);   
 	   for (int i=1;i<=nol;i++)  
 	   {  
