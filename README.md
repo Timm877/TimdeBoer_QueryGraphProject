@@ -2,8 +2,7 @@
 Author: Tim de Boer 
 
 This repository contains code for a short research project for the master AI at the Vrije Unviversiteit Amsterdam.  
-The initial idea for this project is that we may be able to improve performance of large scale graph embedding methods  
-by adding information about importance of triples, as measured on downstream ML tasks.
+The initial idea for this project is that we may be able to improve performance of large scale graph embedding methods by adding information about importance of triples, as measured on downstream ML tasks.
 
 ## How to read this repo
 
